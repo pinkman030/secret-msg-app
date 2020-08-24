@@ -28,5 +28,15 @@ const linkInput  =  document.querySelector(".link-input");
 
 linkInput.value = `${window.location}#${encrypted}`;
 linkInput.select();
+});
+
+document.querySelector("#copy-btn").addEventListener("click",function(){
+
+    const copyLink  =  document.querySelector(".link-input");
+    copyLink.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied the link: " + copyLink.value);
+    
+    
 
 });
