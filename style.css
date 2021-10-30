@@ -1,4 +1,7 @@
 
+body{
+    background-color: rgba(0, 0, 0, 1);
+}
 .row {
     margin-top: 25vh;
 }
@@ -7,6 +10,14 @@ h1{
     margin-top: 0;
     display: block;
     overflow-wrap: break-word;
+}
+
+#copy-btn{
+    background-color: #a10d95;
+}
+
+#create-btn{
+    background-color: #a10d95;
 }
 
 
